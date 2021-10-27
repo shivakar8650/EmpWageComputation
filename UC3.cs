@@ -20,9 +20,9 @@ namespace EmployeeWageCalculaton
             {
                 empHrs = 8;
             }
-            else
+            if (empCheck == IS_PART_TIME)
             {
-                empHrs = 0;
+                empHrs = 4;
             }
             empWage = empHrs * EMP_RATE_PER_HOUR;
             Console.WriteLine("Emp Wage :" + empWage);
