@@ -24,6 +24,10 @@ namespace EmployeeWageCalculaton
             {
                 empHrs = 4;
             }
+           else
+           {
+               empHrs = 0;
+           }
             empWage = empHrs * EMP_RATE_PER_HOUR;
             Console.WriteLine("Emp Wage :" + empWage);
         }
